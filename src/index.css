@@ -7,6 +7,6 @@ body {
 }
 @layer base {
   h1 {
-    @apply text-2xl font-bold mb-3;
+    @apply text-2xl font-bold mb-3 hover:text-amber-300 cursor-pointer;
   }
 }
